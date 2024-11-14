@@ -6,7 +6,7 @@ public class Questao6 {
         int n2 = 1;
 
         int i = 1;
-        while (n1 <= 100){
+        while (n1 <= 200){
 
             n2 = n1 + n2;
             n1 = n2 - n1;
@@ -15,18 +15,5 @@ public class Questao6 {
             i++;
         }
 
-//        for (int cont = 1; cont < 13; cont++){
-//
-//            System.out.println("O resultado é: " + n1);
-//
-//            if (n1 <= 100){
-//                n2 = n1 + n2;
-//                n1 = n2 - n1;
-//            } else {
-//                break;
-//            }
-//
-//
-//        }
     }
 }
